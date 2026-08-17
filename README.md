@@ -114,6 +114,6 @@ Once everything is installed, simply run the program and describe the edit you w
 
 ---
 
-## 👤 Author
+## 🧑🏻‍💻Author
 
 **Mani Arab**
