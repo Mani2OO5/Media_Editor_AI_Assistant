@@ -1,6 +1,7 @@
 from ollama import chat
 import subprocess
 import argparse
+from shlex import split
 import os
 import sys
 
@@ -60,15 +61,19 @@ def main():
             )
 
             ffmpeg_config = response.message.content
-            print(f"command: {ffmpeg_config}")
-
             if ffmpeg_config == "False":
                 print("Wrong input")
                 return
+            
+            print(f"command: {ffmpeg_config}")
+
+            ffmpeg_config = split(ffmpeg_config)
+
+            
 
             #ffmpeg_config = split(ffmpeg_config)
 
-            print(subprocess.run(ffmpeg_config, check=True, capture_output=True, text=True))
+            subprocess.run(ffmpeg_config, check=True, capture_output=True, text=True)
             print("DONE")
             return
 
