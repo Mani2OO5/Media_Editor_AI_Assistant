@@ -114,6 +114,13 @@ Once everything is installed, simply run the program and describe the edit you w
 
 ---
 
-## 👤 Author
+## 👨🏻‍💻 Author
 
-**Mani Arab**
+Created by Mani Arab
+
+If you find this project useful, feel free to ⭐ the repo or fork it!
+---
+
+## ⚖️ License
+
+This project is released under the MIT License, so you can freely use, modify, and share it.
