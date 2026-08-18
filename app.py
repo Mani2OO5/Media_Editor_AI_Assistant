@@ -1,3 +1,4 @@
+
 from ollama import chat
 import subprocess
 import argparse
@@ -19,8 +20,8 @@ input_path = args.input
 output_path = args.output
 
 
-if not 1 >= len(sys.argv[1:]) >= 3:
-    print("usage: python prog.py prompt input [output]")
+if  1 >= len(sys.argv[1:]) >= 3:
+    print("usage: python app.py prompt input [output]")
     print("!!! You can also specify the input and output paths in the prompt. !!!")
     sys.exit(1)
 
@@ -41,10 +42,12 @@ def main():
     print(f"command: {ffmpeg_config}")
 
     if ffmpeg_config == "False":
-        print("Wrong input")
+                print("Wrong input")
 
     ffmpeg_config = split(ffmpeg_config)
     subprocess.run(ffmpeg_config)
+
+    
 
 
 if __name__ == "__main__":
