@@ -1,5 +1,8 @@
 # 🎬 FFmpeg Prompt Editor
 
+⚠️ Project Status: Under Development / Not Stable
+This project currently contains known bugs and may not work correctly. It is under active development.
+
 A simple program that lets you edit your videos and audios (or literally any file you can edit with **FFmpeg**) just by typing a prompt. 🪄
 
 It uses **Ollama** together with the **llama3.2** language model to understand your prompt, turn it into an FFmpeg configuration, and then automatically executes it — and your file gets edited. ✂️
