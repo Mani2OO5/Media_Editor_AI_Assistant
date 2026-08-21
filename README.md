@@ -1,6 +1,6 @@
 # 🎬 FFmpeg Prompt Editor
 
-⚠️ Project Status: Under Development / Not Stable
+#⚠️ Project Status: Under Development / Not Stable
 This project currently contains known bugs and may not work correctly. It is under active development.
 
 A simple program that lets you edit your videos and audios (or literally any file you can edit with **FFmpeg**) just by typing a prompt. 🪄
